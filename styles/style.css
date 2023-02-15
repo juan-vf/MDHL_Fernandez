@@ -2,7 +2,7 @@
 /*#96a79d, #d3eadb, #d3d5d2, #bbb0b6, #aebeb2*/
 /* border: [border-width || border-style || border-color | inherit] ; */
 .header{
-    position: relative;
+    /* position: relative; */
     background-color:#aebeb2 ;
 }
 .section{
@@ -10,7 +10,7 @@
 }
 .tittle{
     font-size: 3em;
-    margin: ;
+    margin: .5em;
 }
 .banner{
     box-sizing: border-box;
@@ -36,14 +36,20 @@ body{
 }
 
 .navBarMain{
-    position: sticky;
+    /* position: sticky; */
+    display: flex;
     top: 0;
     background-color: #aebeb2;
 }
 .navBar{
-    position: relative;
-    left: 75vw;
-    top: .5vw;
+    min-width: 16em;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 1em;
+    /* position: relative; */
+    /* left: 60vw; */
+    /* top: .5vw; */
 }
 .navBarButton{
     color: #ffff;
@@ -62,19 +68,20 @@ body{
     background-color: #d3eadb;
     color: #000;
 }
+.section{
+}
 .logo {
-    display: inline-block;
-    position: relative;
+    /* position: relative; */
 }
 .logo img{
     width: 13em;
 }
 .article{
+    display: flex;
     margin: 2em;
-    display: inline-block;
-    background-image: url(../images/hockey_1.jpg);
 }
 .articleItem{
+    
     font-size: 1.3em;
     margin: 1.5em;
 }
@@ -83,4 +90,7 @@ body{
 }
 .articleImg img{
     max-width: 20em;
+}
+.simpleArticle{
+    margin: 2em;
 }
