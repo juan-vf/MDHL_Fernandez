@@ -91,6 +91,28 @@ body{
 .articleImg img{
     max-width: 20em;
 }
+
+
 .simpleArticle{
     margin: 2em;
+}
+
+
+.contentTable{
+    border-collapse: separate;
+}
+.contentTable th{
+    background-color: #5cb748;
+}
+.contentTable td{
+    background-color: #5cb748;
+}
+.alphaList{
+    list-style-type: lower-alpha;
+}
+.circleList{
+    list-style: circle;
+}
+.simpleList{
+    list-style: none;
 }
