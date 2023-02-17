@@ -1,4 +1,3 @@
-
 /*#96a79d, #d3eadb, #d3d5d2, #bbb0b6, #aebeb2*/
 /* border: [border-width || border-style || border-color | inherit] ; */
 .header{
@@ -9,8 +8,8 @@
     background-color: #bbb0b6;
 }
 .tittle{
-    font-size: 3em;
-    margin: .5em;
+    font-size: 2em;
+    margin: .2em;
 }
 .banner{
     box-sizing: border-box;
@@ -38,13 +37,13 @@ body{
 .navBarMain{
     /* position: sticky; */
     display: flex;
-    top: 0;
+    justify-content: space-between;
     background-color: #aebeb2;
 }
 .navBar{
-    min-width: 16em;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    align-items: end;
     flex-wrap: wrap;
     padding: 1em;
     /* position: relative; */
@@ -53,7 +52,7 @@ body{
 }
 .navBarButton{
     color: #ffff;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: ;
     background-color: #5cb748;
     padding: .2em 1em;
@@ -95,17 +94,41 @@ body{
 
 .simpleArticle{
     margin: 2em;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .contentTable{
     border-collapse: separate;
+    background-color: #ffff;
+    border-radius: .3em;
+    margin: 1em;
 }
 .contentTable th{
-    background-color: #5cb748;
+    background-color: #bbb0b6;
+    font-size: 1em;
+    padding: 1.4em;
+}
+.contentTable tr{
+    /* background-color: #000; */
+    border: 2em solid #000;
+    /* border-radius: 10em; */
 }
 .contentTable td{
-    background-color: #5cb748;
+    /* background-color: #5cb748; */
+    
+    font-size: 1em;
+    padding: .7em;
+}
+.tableContainer{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    border-radius: .6em;
+    max-width: 25em;
+    max-height: 15em;
 }
 .alphaList{
     list-style-type: lower-alpha;
@@ -115,4 +138,53 @@ body{
 }
 .simpleList{
     list-style: none;
+}
+
+.form{
+    background-color: #96a79d;
+    padding: .2em;
+    border-radius: .5em;
+}
+fieldset{
+    margin: .5em;
+    border-radius: .5em;
+    background-color: #bbb0b6;
+    padding: .5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+.formFieldData{
+    font-size: 1em;
+
+}
+
+/*table responsive*/
+@media screen and (max-width: 860px) {
+    .contentTable{
+        border-collapse: separate;
+        background-color: #ffff;
+        margin: .3em;
+    }
+    .contentTable th{
+        background-color: #bbb0b6;
+        padding: .6em;
+    }
+    .contentTable tr{
+        border: 2em solid #000;
+    }
+    .contentTable td{
+        /* background-color: #5cb748; */
+        
+        font-size: .8em;
+        padding: .3em;
+    }
+    .tableContainer{
+    }
+    iframe{
+        border-radius: .6em;
+        min-width: 15em;
+        min-height: 5em;
+    }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header">
         <!-- <img src="./images/Logo_Mighty_ducks-01.png" alt="Logo de Mighty ducks" width="100"> -->
@@ -22,11 +24,12 @@
                 <a class="navBarButton" href="./contact.html">Contact</a>
                 <a class="navBarButton" href="./rules.html">Rules</a>
                 <a class="navBarButton" href="#">Game Info</a>
+                <a class="navBarButton" href="./registrationForm.html">Registration Form</a>
             </nav>
         </div>
     </header>
     <main>
-        <section>
+        <section class="section">
             <div class="sectionTittle">
                 <h4>Fall Schedule</h4>
             </div>
@@ -37,132 +40,195 @@
                 <div class="">
                     <h4>*All games take place on saturday</h4>
                 </div>
-                <table class="contentTable">
-                    <tr>
-                        <th>Semptember</th>
-                        <th>Teams</th>
-                        <th>Location</th>
-                        <th>Times</th>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">
-                            9/01
-                        </td>
-                        <td>
-                            U1 and U4
-                        </td>
-                        <td>
-                            AJ Katzenmaier
-                        </td>
-                        <td>
-                            9:30a.m.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            U3 and U2
-                        </td>
-                        <td>
-                            Greenbay
-                        </td>
-                        <td>
-                            1:00 p.m.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">
-                            9/08
-                        </td>
-                        <td>
-                            U5 and U6
-                        </td>
-                        <td>
-                            Howard A Yeager
-                        </td>
-                        <td>
-                            9:30a.m.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            U6 and U1
-                        </td>
-                        <td>
-                            Marjorie P Hart
-                        </td>
-                        <td>
-                            1:00 p.m.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">
-                            9/15
-                        </td>
-                        <td>
-                            U2 and U4
-                        </td>
-                        <td>
-                            North
-                        </td>
-                        <td>
-                            9:30a.m.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            U3 and U5
-                        </td>
-                        <td>
-                            AJ Katzenmaier
-                        </td>
-                        <td>
-                            1:00 p.m.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">
-                            9/22
-                        </td>
-                        <td>
-                            U1 and U3
-                        </td>
-                        <td>
-                            South
-                        </td>
-                        <td>
-                            9:30a.m.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            U2 and U6
-                        </td>
-                        <td>
-                            Howard A Yeager
-                        </td>
-                        <td>
-                            1:00 p.m.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            9/29
-                        </td>
-                        <td>
-                            U4 and U5
-                        </td>
-                        <td>
-                            Greenbay
-                        </td>
-                        <td>
-                            9:30a.m.
-                        </td>
-                    </tr>
-                </table>
+                <div class="tableContainer">
+                    <table class="contentTable">
+                        <thead>
+                            <tr>
+                                <th>Semptember</th>
+                                <th>Teams</th>
+                                <th>Location</th>
+                                <th>Times</th>
+                                <th>Map</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">
+                                    9/01
+                                </td>
+                                <td>
+                                    U1 and U4
+                                </td>
+                                <td>
+                                    AJ Katzenmaier
+                                </td>
+                                <td>
+                                    9:30a.m.
+                                </td>
+                                <td>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780458165195!2d-87.86499328418812!3d42.3258811452513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses-419!2sar!4v1676633709112!5m2!1ses-419!2sar"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    U3 and U2
+                                </td>
+                                <td>
+                                    Greenbay
+                                </td>
+                                <td>
+                                    1:00 p.m.
+                                </td>
+                                <td>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.7663383630174!2d-88.05726518414104!3d44.4994544053135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802fa54437d3b65%3A0xf63728c8a91e81ef!2sGreen%20Bay%20Gamblers%20Hockey!5e0!3m2!1ses-419!2sar!4v1676634218501!5m2!1ses-419!2sar"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">
+                                    9/08
+                                </td>
+                                <td>
+                                    U5 and U6
+                                </td>
+                                <td>
+                                    Howard A Yeager
+                                </td>
+                                <td>
+                                    9:30a.m.
+                                </td>
+                                <td>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504862.3252226969!2d-89.29413029504407!3d42.5513808511711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses-419!2sar!4v1676634009253!5m2!1ses-419!2sar"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    U6 and U1
+                                </td>
+                                <td>
+                                    Marjorie P Hart
+                                </td>
+                                <td>
+                                    1:00 p.m.
+                                </td>
+                                <td>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.289653643667!2d-87.64816138419647!3d41.92962687016643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie%20P%20Hart%20Elementary!5e0!3m2!1ses-419!2sar!4v1676634071460!5m2!1ses-419!2sar"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">
+                                    9/15
+                                </td>
+                                <td>
+                                    U2 and U4
+                                </td>
+                                <td>
+                                    North
+                                </td>
+                                <td>
+                                    9:30a.m.
+                                </td>
+                                <td>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2959.721528186028!2d-87.8119072841926!3d42.11343445863237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fc6e58cafb32b%3A0xb352c3a8231a21dc!2sNorth%20Shore%20Ice%20Arena!5e0!3m2!1ses-419!2sar!4v1676634151588!5m2!1ses-419!2sar"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    U3 and U5
+                                </td>
+                                <td>
+                                    AJ Katzenmaier
+                                </td>
+                                <td>
+                                    1:00 p.m.
+                                </td>
+                                <td>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780458165195!2d-87.86499328418812!3d42.3258811452513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses-419!2sar!4v1676633709112!5m2!1ses-419!2sar"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">
+                                    9/22
+                                </td>
+                                <td>
+                                    U1 and U3
+                                </td>
+                                <td>
+                                    South
+                                </td>
+                                <td>
+                                    9:30a.m.
+                                </td>
+                                <td>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.034157849404!2d-84.09609888478657!3d33.991656380622395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5bd49bac0e1b3%3A0xb818643559bf3468!2sGas%20South%20Arena!5e0!3m2!1ses!2sar!4v1676634388155!5m2!1ses!2sar"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    U2 and U6
+                                </td>
+                                <td>
+                                    Howard A Yeager
+                                </td>
+                                <td>
+                                    1:00 p.m.
+                                </td>
+                                <td>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504862.3252226969!2d-89.29413029504407!3d42.5513808511711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses-419!2sar!4v1676634009253!5m2!1ses-419!2sar"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    9/29
+                                </td>
+                                <td>
+                                    U4 and U5
+                                </td>
+                                <td>
+                                    Greenbay
+                                </td>
+                                <td>
+                                    9:30a.m.
+                                </td>
+                                <td>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.7663383630174!2d-88.05726518414104!3d44.4994544053135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802fa54437d3b65%3A0xf63728c8a91e81ef!2sGreen%20Bay%20Gamblers%20Hockey!5e0!3m2!1ses-419!2sar!4v1676634218501!5m2!1ses-419!2sar"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
                 <strong>Faility Type:</strong>
                 <p>Outdoor</p>
                 <strong>Addtional Information:</strong>
-                <p>If deemerd necessary bu MDHL games may be shortened or cancelled due to extreme weather conditions.</p>
+                <p>If deemerd necessary bu MDHL games may be shortened or cancelled due to extreme weather conditions.
+                </p>
                 <strong>Please direct all questions to:</strong>
                 <p>Michael Randall, League Coordinator</p>
                 <strong>Phone:</strong>
@@ -173,4 +239,5 @@
         </section>
     </main>
 </body>
+
 </html>
